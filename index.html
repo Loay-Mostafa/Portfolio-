@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loay | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .cursor {
+      position: fixed;
+      width: 20px;
+      height: 20px;
+      background-color: rgba(120, 8, 208, 0.7);
+      border-radius: 50%;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      transition: background-color 0.3s;
+    }
+
+    body {
+      cursor: none;
+    }
+
+    .cursor:hover {
+      background-color: rgba(255, 0, 0, 0.7);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Page Navbar -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a class="logo" href="#">My Portfolio</a>
+      <div class="hamburger" id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a class="nav-btn" href="#">Download CV</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>Loay</span></h1>
+      <p>Creative Frontend Developer | Cybersecurity Enthusiast</p>
+      <p>Let's collaborate to create secure, user-friendly digital solutions!</p>
+
+      <button class="button" style="--clr: #7808d0">
+        <span class="button__icon-wrapper">
+          <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="button__icon-svg" width="10">
+            <path
+              d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+              fill="currentColor"></path>
+          </svg>
+          <svg viewBox="0 0 14 15" fill="none" width="10" xmlns="http://www.w3.org/2000/svg"
+            class="button__icon-svg button__icon-svg--copy">
+            <path
+              d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+              fill="currentColor"></path>
+          </svg>
+        </span>
+        Explore All
+      </button>
+    </div>
+
+    <div class="hero-image">
+      <img src="memoji.png" alt="Memoji Image">
+    </div>
+  </section>
+
+
+  <!-- About  -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am currently pursuing my degree in Network and Cybersecurity at Elswedy University of Technology (SUT), where
+      I’m honing my expertise in safeguarding digital infrastructures. In parallel, I work as a Frontend Web Developer,
+      bringing innovative ideas to life through intuitive and responsive web designs. My passion for coding and
+      problem-solving fuels my journey in crafting user-centric experiences.
+    </p>
+    <p>
+      Outside of development, I also serve as an English Technical Support Specialist, assisting US customers with
+      technical issues, providing efficient, clear communication and technical resolutions. My diverse background has
+      enabled me to merge strong technical skills with the ability to connect with people, ensuring customer
+      satisfaction while continually learning and evolving in the tech world.
+    </p>
+    <p>
+      I am passionate about merging cybersecurity with web development to create secure, cutting-edge web solutions.
+      With an unwavering commitment to continuous growth, I look forward to leveraging my skills in both areas to make a
+      meaningful impact in the digital landscape.
+    </p>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item ">
+        <div class="timeline-content">
+          <h3>Web Developer</h3>
+          <span class="company-name">Freelance</span>
+          <p class="date">Sep 2019 - Present (5 yrs 2 mos)</p>
+          <p>• Developed websites and applications for various clients.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3>IT Trainee</h3>
+          <span class="company-name">PETROJET</span>
+          <p class="date">Sep 2024 - Present (1 mo)</p>
+          <p>• Engaged in hands-on training for IT support.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3>English Technical Support</h3>
+          <span class="company-name">Sutherland</span>
+          <p class="date">Aug 2024 - Sep 2024 (2 mos)</p>
+          <p>• Provided technical support to English-speaking clients.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3>Information Technology Trainee</h3>
+          <span class="company-name">MCV - Manufacturing Commercial Vehicles</span>
+          <p class="date">Jul 2024 - Aug 2024 (2 mos)</p>
+          <p>• Completed IT training at Mercedes-Benz MCV.</p>
+          <p>• Gained skills in System Administration and Windows Server.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Python</li>
+      <li>Java</li>
+      <li>Windows Server</li>
+      <li>System Administration</li>
+      <li>Active Directory</li>
+      <li>Esxi7</li>
+      <li>virtualization</li>
+      <li>Frontend Development</li>
+      <li>BackEnd Flask FrameWork</li>
+      <li>Database Management</li>
+      <li>Teamwork</li>
+      <li>Time Management</li>
+    </ul>
+  </section>
+
+
+  <!-- Portfolio  -->
+  <section id="portfolio">
+    <h2>My Work</h2>
+    <div class="portfolio-grid">
+      <!-- Warehouse Management  -->
+      <div class="portfolio-item">
+        <img src="image.png" alt="Warehouse Management System">
+        <h3>Warehouse Management System</h3>
+        <p>A project developed for a Saudi Arabian company, focusing on efficient management of warehouse operations.
+        </p>
+      </div>
+
+      <!-- POS System  -->
+      <div class="portfolio-item">
+        <h3>Point of Sale (POS) System</h3>
+        <video class="pos-video" muted>
+          <source src="video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p>A user-friendly POS system that enhances sales processes with features like inventory management and sales
+          reporting.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact  -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <script src="scripts.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+
+      const skillBars = document.querySelectorAll('.skill-progress div');
+      skillBars.forEach(bar => {
+        bar.style.setProperty('--skill-width', bar.dataset.width);
+      });
+
+
+      const smoothScroll = (target) => {
+        document.querySelector(target).scrollIntoView({
+          behavior: 'smooth',
+        });
+      };
+
+
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          smoothScroll(this.getAttribute('href'));
+        });
+      });
+
+
+      const exploreButton = document.querySelector('.button');
+      exploreButton.addEventListener('click', function () {
+        smoothScroll('#experience');
+      });
+    });
+  </script>
+</body>
+
+</html>
